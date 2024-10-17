@@ -10,5 +10,11 @@ Search for patients by name, age, or condition to easily access health records.
 Technologies Used:
 Frontend: React (Vite), CSS , Tailwind CSS , Javascript
 Backend: Node.js, Express.js
-Database: MongoDB for patient and authorization request data
-Deployment: Deployment on Vercel (frontend) and Heroku (backend) for live testing.
+Database: MongoDB Atlas for cloud dev.for patient and authorization request data
+Deployment: Deployment on Vercel (frontend and Backend )for live testing.
+
+Video Demonstration of project :
+[![Watch the video]](https://drive.google.com/file/d/1Wnc6cb4_UQSy6mEY81XE_SvZ8VQOVV7I/view?usp=drive_link)
+
+
+

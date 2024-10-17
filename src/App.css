@@ -1,0 +1,333 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fa;
+  }
+  
+.patient-list a {
+    text-decoration: none;  
+    color: #333; 
+  }
+  
+  .patient-list a:hover {
+    color: #007acc;  
+  }
+  
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #007acc;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar .links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  
+  .navbar .links a:hover {
+    color: #f0f0f0;
+  }
+  /* Navbar container */
+.navbar {
+    background-color: #007bff;  /* Blue background */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Box shadow for navbar */
+  }
+  
+  /* Navbar title */
+  .navbar h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  /* Link container */
+  .navbar .links {
+    display: flex;
+    gap: 1rem;  /* Spacing between buttons */
+  }
+  
+  /* Links styled as buttons */
+  .navbar .links a {
+    background-color: white;  /* White button background */
+    color: #007bff;  /* Blue text */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow for buttons */
+    font-weight: bold;
+    transition: all 0.3s ease;  /* Smooth transition for hover effects */
+  }
+  
+  /* Hover effect for links */
+  .navbar .links a:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+    color: white;  /* White text on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  /* Larger shadow on hover */
+    transform: translateY(-2px);  /* Slight lift on hover */
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .navbar .links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .navbar h1 {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  
+  /* Search Form, Authorization Form, and Add Patient Form */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Patient List Styles */
+  .patient-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .patient-list h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .patient-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .patient-list li {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .patient-list li:hover {
+    background-color: #f1f1f1;
+    border-color: #ccc;
+  }
+  
+  .patient-list li h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .patient-list li p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  /* Patient Details */
+  .patient-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .patient-detail h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .patient-detail p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  /* Submit Button */
+  button.submit-button {
+    background-color: #28a745;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar h1 {
+      font-size: 1.5rem;
+    }
+  
+    .navbar .links a {
+      font-size: 1rem;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .patient-list, .patient-detail, form {
+      padding: 15px;
+    }
+  
+    .patient-list h2, form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .patient-list li h3 {
+      font-size: 1.2rem;
+    }
+  
+    form .form-group label {
+      font-size: 1rem;
+    }
+  
+    form .form-group input {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 10px 12px;
+    }
+  
+    .submit-button {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Extra Small Devices */
+  @media (max-width: 480px) {
+    .navbar h1 {
+      font-size: 1.2rem;
+    }
+  
+    .navbar .links a {
+      font-size: 0.9rem;
+    }
+  
+    .patient-list h2, form h2 {
+      font-size: 1.2rem;
+    }
+  
+    .patient-list li h3 {
+      font-size: 1.1rem;
+    }
+  
+    form .form-group input {
+      font-size: 0.85rem;
+      padding: 6px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 10px;
+    }
+  }
+  

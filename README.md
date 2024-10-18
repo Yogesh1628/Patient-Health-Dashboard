@@ -18,9 +18,13 @@ The dashboard allows healthcare professionals to:
 - **Deployment:** Vercel (for both frontend and backend)
 
 ---
-
 ## **Video Demonstration of the Project:**
-[![Watch the video](https://drive.google.com/file/d/1Wnc6cb4_UQSy6mEY81XE_SvZ8VQOVV7I/view?usp=drive_link)](https://drive.google.com/file/d/1Wnc6cb4_UQSy6mEY81XE_SvZ8VQOVV7I/view?usp=drive_link)
+
+#### Video 1: Full Project Demonstration
+[![Watch Video 1](https://drive.google.com/uc?export=view&id=1Wnc6cb4_UQSy6mEY81XE_SvZ8VQOVV7I)](https://drive.google.com/file/d/1Wnc6cb4_UQSy6mEY81XE_SvZ8VQOVV7I/view?usp=drive_link)
+
+#### Video 2: Another U.I for same project
+[![Watch Video 2](https://drive.google.com/uc?export=view&id=1pEPKJwa151JKT4mYAQvol6F3wYeZoHrL)](https://drive.google.com/file/d/1pEPKJwa151JKT4mYAQvol6F3wYeZoHrL/view?usp=drive_link)
 
 ---
 
